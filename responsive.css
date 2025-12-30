@@ -1,0 +1,88 @@
+/* ========== MOBILE (max 600px) ========== */
+@media (max-width: 600px) {
+
+  body {
+    overflow: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .container {
+    height: auto;
+    padding: 1rem;
+    margin-top: 70px;
+  }
+
+  .game {
+    width: 90vmin;
+    height: 90vmin;
+    gap: 2vmin;
+  }
+
+  .box {
+    width: 28vmin;
+    height: 28vmin;
+    font-size: 10vmin;
+  }
+
+  #reset-btn,
+  #new-button {
+    width: 100%;
+    max-width: 220px;
+    font-size: 16px;
+  }
+
+  #first {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+/* ========== TABLET (601px – 1023px) ========== */
+@media (min-width: 601px) and (max-width: 1023px) {
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .game {
+    width: 70vmin;
+    height: 70vmin;
+  }
+
+  .box {
+    width: 20vmin;
+    height: 20vmin;
+    font-size: 8vmin;
+  }
+
+  #first {
+    font-size: 3rem;
+  }
+}
+
+/* ========== LAPTOP & DESKTOP (1024px+) ========== */
+@media (min-width: 1024px) {
+
+  .container {
+    height: 75vh;
+  }
+
+  .game {
+    width: 60vmin;
+    height: 60vmin;
+  }
+
+  .box {
+    width: 18vmin;
+    height: 18vmin;
+    font-size: 9vmin;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
