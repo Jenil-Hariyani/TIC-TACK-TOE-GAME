@@ -35,5 +35,5 @@ Playable on both desktop and mobile devices with responsive design.
 
 ## 🔹 Author
 
-**Your Name**  
+**Jenil Hariyani**  
 [GitHub Profile](https://github.com/Jenil-Hariyani)
